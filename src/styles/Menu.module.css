@@ -1,0 +1,20 @@
+.Menu_container {
+  display: flex;
+  width: 100%;
+  background-color: light-dark(#333b3c, #1b2236);
+  justify-content: center;
+}
+.Menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.Menu_items {
+  display: inline;
+  padding: 16px;
+  font-weight: 700;
+}
+
+.Menu_items:hover {
+  cursor: pointer;
+}
